@@ -1,0 +1,80 @@
+.how-it-works {
+  padding: 1rem 6.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.how-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0;
+}
+.how-card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 30%;
+}
+.how-card-stage {
+  color: red;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.how-card-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.how-card-title-img {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+.how-card-title-text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #434343;
+}
+.how-card-points {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  color: #434343;
+  padding: 1rem;
+  font-weight: 300;
+}
+.how-card-points li {
+  padding: 0.3rem 0;
+}
+.how-grid {
+  background-image: url("../../images/laptop.png");
+  background-position: center;
+  background-size: 450px;
+  background-repeat: no-repeat;
+}
+.how-it-works .how-title {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 2rem 0;
+}
+.how-it-works .how-options {
+  display: flex;
+}
+.how-option {
+  margin: 0 2rem;
+  background-color: #fbdc00;
+  border-radius: 20px;
+  padding: 0.7rem 1.2rem;
+  font-weight: 600;
+}
+.how-option-2 {
+  margin: 0 2rem;
+  background-color: #e3e2e2;
+  border-radius: 20px;
+  padding: 0.7rem 1.2rem;
+  font-weight: 500;
+}
